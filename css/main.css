@@ -26,3 +26,60 @@ img {
     margin: 0 auto; 
     padding: 0 10px;
  }
+ .header__ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ .header__ul--li{
+    list-style-type: none;
+ }
+ .header__ul--li--button{
+    color: white;
+    width: 188px;
+height: 50px;
+background: #0E204E;
+ }
+ .hero-card__h1{
+    margin-left: 50px;
+    width: 643px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #FFF;
+    
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+.hero-card__p{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 655px;
+    height: 83px;
+    flex-shrink: 0;
+    color: #FFF;
+    
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+ .hero-card{
+    margin-top: -600px;
+    width: 786px;
+height: 496px;
+flex-shrink: 0;
+background: #0E204E;
+ }
+ .hero-left{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 1368px;
+    height: 717px;
+    content: "";
+    background-image: url(./images/secition-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
