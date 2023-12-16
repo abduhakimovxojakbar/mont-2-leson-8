@@ -67,6 +67,7 @@ background: #0E204E;
     line-height: 180%;
 }
  .hero-card{
+    margin-bottom: 200px;
     margin-top: -600px;
     width: 786px;
 height: 496px;
@@ -82,4 +83,43 @@ background: #0E204E;
     background-image: url(./images/secition-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+ }
+ .hero{
+    margin-bottom: 100px;
+ }
+ .abaut{
+    display: flex;
+ }
+ .abaut__h2{
+    margin-top: 150px;
+    width: 317px;
+color: #0E204E;
+
+font-family: Playfair Display;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .abaut-card{
+    width: 433px;
+height: 620px;
+flex-shrink: 0;
+background: #0E204E;
+ }
+ .abaut__img{
+    width: 728px;
+height: 620px;
+ }
+ .abaut-card__p{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 315px;
+color: #FFF;
+
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
  }
