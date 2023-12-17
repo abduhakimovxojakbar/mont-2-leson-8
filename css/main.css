@@ -23,3 +23,53 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
+.become__cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.become__cards--left {
+  width: 48%;
+  margin: 100px;
+}
+
+.become__cards--left--h3 {
+  color: #0E204E;
+  font-family: "Playfair Display";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.become__cards--left--p {
+  color: #263238;
+  font-family: " Manrope";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 30px */
+  margin-bottom: 30px;
+}
+
+.become__cards--left--button {
+  width: 239px;
+  height: 62px;
+  flex-shrink: 0;
+  background: #0E204E;
+  color: #FFF;
+  font-family: "Gotham";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.become__cards--right{
+  margin-left: 30px;
+  width: 55%;
+  height: 800px;
+  display: flex;
+}

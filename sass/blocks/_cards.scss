@@ -15,3 +15,31 @@
     font-weight: 700;
     line-height: normal;
 }
+
+.become__cards--left--p {
+    color: #263238;
+    font-family: " Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.become__cards--left--button {
+    width: 239px;
+    height: 62px;
+    flex-shrink: 0;
+    background: #0E204E;
+    color: #FFF;
+    font-family: "Gotham";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.become__cards--right{
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+}
