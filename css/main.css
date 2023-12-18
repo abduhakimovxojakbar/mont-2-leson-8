@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Playfair display 700";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "Manrope 400";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Manrope/static/Manrope-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins 400";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Poppins/Poppins-Regular.ttf") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", "Raleway", "Arial", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.huge-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#choose {
+  width: 100%;
+  height: 600px;
+  background-image: url(../../assets/images/choose/bg-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: start;
+}
+#choose .choose {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+#choose .choose h1 {
+  width: 18%;
+  color: #FFF;
+  font-family: "Playfair Display 700";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#choose .choose .block {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.1);
+}
+#choose .choose .block .block__text {
+  width: 40%;
+  background: #FFF;
+}
+#choose .choose .block .block__text p {
+  color: #0E204E;
+  font-family: "Manrope 400";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 10%;
+}
+#choose .choose .block .block__image {
+  width: 60%;
+}
+#choose .choose .block .block__image img {
+  width: 100%;
+}
+#choose .offers {
+  width: 100%;
+  padding-top: 200px;
+}
+#choose .offers h2 {
+  color: #0E204E;
+  font-size: 60px;
+  font-family: "Playfair Display 700";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+#choose .offers .cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 112px;
+}
+#choose .offers .cards .card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#choose .offers .cards .card .card__image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#choose .offers .cards .card .card__image img {
+  width: 70%;
+}
+#choose .offers .cards .card .card__image .clr {
+  width: 30%;
+  height: 40vh;
+  background-color: #0E204E;
+}
+#choose .offers .cards .card .card__icon {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#choose .offers .cards .card .card__icon .icon__box {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#choose .offers .cards .card .card__icon .icon__box .box-icon {
+  width: 50px;
+  height: 50px;
+}
+#choose .offers .cards .card .card__icon .icon__box p {
+  color: #263238;
+  font-family: "Poppins 400";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#choose .offers .cards .second {
+  flex-direction: row-reverse;
+}
+#choose .offers .cards .second .card__image--second {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=main.css.map */
